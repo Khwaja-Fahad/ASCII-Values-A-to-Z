@@ -1,0 +1,33 @@
+SOURCE CODE:
+#include <stdio.h> 
+
+int main() 
+{ 
+    char ch = 'A'; 
+    int integer_value = (int) ch; 
+    printf("char = %c\nint = %d\n", ch, integer_value);
+    
+    // Convert 'd' to 'D' (small letter to capital letter)
+    ch = 'd';
+    integer_value = (int) ch - 32;
+    printf("char = %c\nint = %d\n", ch, integer_value);
+    
+    // Convert 'N' to 'n' (capital letter to small letter)
+    ch = 'N';
+    integer_value = (int) ch + 32;
+    printf("char = %c\nint = %d\n", ch, integer_value);
+    
+    return 0; 
+} 
+
+OUTPUT:
+char = A
+int = 65
+char = d
+int = 100
+char = D
+int = 68
+char = N
+int = 78
+char = n
+int = 110
