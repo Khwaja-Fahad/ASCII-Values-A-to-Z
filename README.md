@@ -1,4 +1,4 @@
-# ASCII-Values-A-to-Z
+# ASCII-Values-A-to-Z-in-C-Programming
 
 To convert between small and capital letters, we can add or subtract the difference between the ASCII values of 'A' and 'a' from the ASCII value of the character. 
 To convert a small letter to a capital letter, we can subtract 32 from its ASCII value.
